@@ -54,13 +54,13 @@ export default function BooksList() {
             author
           });
         }
-        getUrl();
-        setTitle("");
-        setAuthor("");
       }
     } catch (error) {
       console.error("Error adding/updating book:", error);
     }
+    getUrl();
+    setTitle("");
+    setAuthor("");
   }
 
   /*  */
